@@ -50,7 +50,7 @@
                 {
                  "name":"playAudio",
                  "type":"string",
-                 "value":"freiheit.mp3"
+                 "value":"https:\/\/stream.anarchie.jetzt\/radio\/8000\/radio.mp3"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -113,22 +113,11 @@
          "y":0
         }, 
         {
-         "draworder":"topdown",
-         "id":8,
-         "name":"floorLayer",
-         "objects":[],
-         "opacity":1,
-         "type":"objectgroup",
-         "visible":true,
-         "x":0,
-         "y":0
-        }, 
-        {
          "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4791, 4792, 4793, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4807, 4839, 4809, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4823, 4824, 4825, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
          "height":13,
-         "id":7,
+         "id":5,
          "name":"JitsiRoom_Maschinenraum",
-         "opacity":0.45,
+         "opacity":0.5,
          "properties":[
                 {
                  "name":"jitsiRoom",
@@ -143,6 +132,17 @@
          "type":"tilelayer",
          "visible":true,
          "width":15,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":6,
+         "name":"floorLayer",
+         "objects":[],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":true,
          "x":0,
          "y":0
         }],
